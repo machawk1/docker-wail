@@ -2,8 +2,6 @@ FROM ubuntu
 FROM tomcat:7-jre8
 MAINTAINER Mat Kelly <mkelly@cs.odu.edu>
 
-CMD ["/sbin/my_init"]
-
 RUN apt-get update && apt-get -y install \
     git \
     maven
